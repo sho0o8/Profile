@@ -30,7 +30,6 @@ header{
 .header_left h1{
   font-family: 'Rock Salt', cursive;
 }
-
 .header_ul{
   display: flex;
 }
@@ -43,9 +42,17 @@ header{
   text-align: center;
   padding: 120px 0;
 }
-.about_img img{
-  width: 400px;
+.about_title h1{
+  padding: 0 10px;
+  display: inline-block;
+  background: linear-gradient(transparent 70%, #bbd8e6 70%);
 }
+.about_img img{
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 10px 10px 5px #bbd8e6;
+}
+
 .about_main{
   display: flex;
   justify-content: center;
@@ -67,7 +74,13 @@ header{
   text-align: center;
   padding-bottom: 120px;
 }
+.achieve_title h1{
+  padding: 0 10px;
+  display: inline-block;
+  background: linear-gradient(transparent 70%, #bbd8e6 70%);
+}
 .achieve_pic img{
+  border-radius: 10px;
   width: 600px;
 }
 .achieve_content{
@@ -89,6 +102,11 @@ header{
   width: 100%;
   text-align: center;
   padding-bottom: 120px;
+}
+.contact_title h1{
+  padding: 0 10px;
+  display: inline-block;
+  background: linear-gradient(transparent 70%, #bbd8e6 70%);
 }
 .contact_table{
   margin:auto;

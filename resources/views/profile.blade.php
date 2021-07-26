@@ -9,6 +9,7 @@
   <!-- アイコン -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- cssシート -->
+  <!-- <link href="{{ asset('css/profile.css') }}" rel="stylesheet"> -->
   <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
   <!-- サイトのタイトル -->
   <title>Sho Momma's Portfolio</title>
