@@ -21,7 +21,7 @@
   <!-- ヘッダー -->
   <header>
     <div class="header_left">
-      <h1>Profile</h1>
+      <h1>PProfile</h1>
     </div>
     <div class="header_right">
       <nav class="header_nav">
