@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* 全共通 */
+body {
+  background-color: #F3FBFE;
+  color: #636b6f;
+  font-size: 24px;
+  font-family: 'Potta One', cursive;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #636b6f;
+}
+.fa{
+  padding: 0 5px;
+}
+/* ヘッダー */
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header_left h1{
+  font-family: 'Rock Salt', cursive;
+}
+
+.header_ul{
+  display: flex;
+}
+.header_li{
+  padding-left: 15px;
+}
+/* About */
+.about {
+  width: 100%;
+  text-align: center;
+  padding: 120px 0;
+}
+.about_img img{
+  width: 400px;
+}
+.about_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_content{
+  text-align: left;
+  padding: 0 70px;
+}
+.content_table{
+  border-spacing: 0px 25px;
+}
+.content_td{
+  padding: 0 20px;
+}
+/* Achieve */
+.achieve{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.achieve_pic img{
+  width: 600px;
+}
+.achieve_content{
+  padding: 0 70px;
+}
+.achieve_main1,.achieve_main3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achieve_main2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+/* お問合せフォーム */
+.contact {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.contact_table{
+  margin:auto;
+}
+.contact_td{
+  text-align: left;
+}
+
+.form_label_required{
+  border-radius: 6px;
+  margin-right: 8px;
+  padding: 2px;
+  width: 50px;
+  display: inline-block;
+  background: #636b6f;
+  color: #fff;
+}
+.form_input{
+  margin: 0 20px;
+  width: 300px;
+  min-width: 300px;
+  font-family: 'Potta One', cursive;
+}
+.input_lastname, .input_firstname{
+  width: 120px;
+  min-width: 120px;
+}
+.form_items_textarea{
+  font-family: 'Potta One', cursive;
+  margin: 0 20px;
+  height: 200px;
+  min-width: 300px;
+  max-width: 400px;
+}
+.error-message{
+  font-size: 10px;
+}
+
+.btn_contact{
+  font-family: 'Potta One', cursive;
+  width: 150px;
+}
+
+/* ヘッター */
+footer{
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; */
+}
